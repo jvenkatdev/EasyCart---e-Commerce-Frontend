@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: rgb(255, 35, 207);
+    background-color: hwb(196 21% 0%);
+    padding: 10px 40px;
+}
+
+header .logo {
+    font-size: 1.5cm;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 219, 219);
+    text-decoration: none;
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(104, 241, 198);
+}
+
+.hero {
+    text-align: center;
+    color: rgb(111, 42, 42);
+    background-color: hwb(196 65% 0%);
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2cm;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 0.9cm;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin: top 20px;
+    ;
+    background-color: yellow;
+    color: violet;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.products {
+    padding: 50px 20px;
+    margin-bottom: 30px;
+
+}
+
+.products h2 {
+    font-size: 2cm;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit) minmax(220px, 1fr);
+    gap: 30px;
+}
+
+.product-grid {
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px;
+}
+
+.product-grid:hover {
+    color: rgb(21, 65, 209);
+    transform: translateY();
+}
+
+.product-grid img {
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+.product-grid p {
+    color: rgb(31, 43, 43);
+    font-weight: bold;
+}
+
+.product-grid button {
+    margin-top: 10px;
+    background-color: rgb(31, 43, 43);
+    color: cornsilk;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.product-grid button:hover {
+    color: aqua;
+}
+
+.container {
+    background-color: cadetblue;
+    color: rgb(88, 5, 255);
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: rgb(249, 70, 70);
+    text-align: center;
+}
